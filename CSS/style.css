@@ -55,6 +55,7 @@ section img {
     position: relative;
     right: 20px
 
+
 }
 body div img {
     box-sizing: border-box;
@@ -74,6 +75,20 @@ body div p{
     width: 500px;
     height: 400px;
     overflow: scroll;
+}
+body div a {
+    background-color:pink;
+    color: blue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left:670px;
+    bottom: 45px;
+    right:0px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left:30px;
 }
 footer p {
     box-sizing: border-box;
