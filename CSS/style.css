@@ -78,7 +78,6 @@ body div p{
 }
 body div a {
     background-color:pink;
-    color: blue;
     font-family:Georgia, 'Times New Roman', Times, serif;
     position: relative;
     left:670px;
@@ -89,6 +88,16 @@ body div a {
     padding-bottom: 10px;
     padding-right: 30px;
     padding-left:30px;
+    
+   
+}
+a {
+    background-color: powderblue;
+    transition: background-color .5s;
+}
+a:hover{
+  
+    background-color: lightgreen;
 }
 footer p {
     box-sizing: border-box;
